@@ -1,0 +1,70 @@
+Testing Item Error Label..
+	Enter Item Error accessed
+	Label should be: "Error: please enter the name of your item (Enter a String)"
+	Label is "Error: please enter the name of your item (Enter a String)"
+	Expected foreground color is: RED
+	Foreground color is RED
+	Error message should not be visible before button action
+	Error message is not visible
+	Inputing String: "2"
+	Error message should be visible
+	Button clicked
+	Error message is visible
+Item Error Label test passed!
+
+Testing Enter Item Label..
+	Enter Item Label accessed
+	Label should be: "Enter Item:"
+	Label is "Enter Item:"
+Enter Item Label test passed!
+
+Testing Item TextField..
+	Item TextField accessed
+	Input: cheese
+	Expected input before enter button hit: cheese
+	Input equals expected input
+	Enter Button accessed
+	Button clicked
+	After Enter Button hit, Text Field should be empty
+	Text Field is empty
+Item TextField test passed!
+
+Testing main..
+Main test passed!
+
+Testing Enter Button..
+	Enter Button accessed
+	Button clicked
+Enter Button test passed!
+
+Testing Price TextField..
+	Price TextField accessed
+	Input: 3.00
+	Expected input before enter button hit: 3.00
+	Input equals expected input
+	Enter Button accessed
+	Button clicked
+	After Enter Button hit, Text Field should be empty
+	Text Field is empty
+Price TextField test passed!
+
+Testing Price Error Label..
+	Enter Price Error accessed
+	Label should be: "Error: please enter the price of your item (Enter a Double)"
+	Label is "Error: please enter the price of your item (Enter a Double)"
+	Expected foreground color is: RED
+	Foreground color is RED
+	Error message should not be visible before button action
+	Error message is not visible
+	Inputing String: "cheese"
+	Error message should be visible
+	Button clicked
+	Error message is visible
+Price Error Label test passed!
+
+Testing Enter Price Label..
+	Enter Price Label accessed
+	Label should be: "Enter Price:"
+	Label is "Enter Price:"
+Enter Price Label test passed!
+
